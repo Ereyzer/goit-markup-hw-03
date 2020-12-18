@@ -10,16 +10,26 @@ body {
   line-height: 1.17;
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
-  background-color: var(--primari-white-color);
+  background-color: #E5E5E5;
 }
 
+.logo-height {
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.nav-container {
+  display: flex;
+
+}
 .head {
-  
+  display: flex;
+  justify-content: space-between;
 
   width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
-  background-color: tomato;
+  background-color: ;
 
   
 }
@@ -32,7 +42,7 @@ body {
 
   width: 1600px;
   margin: 0 auto; 
-  background-color: turquoise;
+  background-color: var(--primari-white-color);
   
   }
 
@@ -90,6 +100,10 @@ button {
 /* навігація хедер */
 .site-nav {
   display: flex;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 93px;
+  padding: 0;
 }
 
 .site-nav li {
@@ -101,9 +115,6 @@ button {
   margin-right: 0;
 }
 
-.contact-mail {
-  margin-right: 50px;
-}
 
 .nav-height-link {
   display: block;
@@ -112,6 +123,15 @@ button {
   
 }
 
+
+.addres-header{
+display: flex;
+}
+
+.addres-header .nav-height-link + .nav-height-link {
+  margin-left: 50px;
+  }
+
 .address-link {
   color: var(--primari-white-color);
 }
@@ -119,6 +139,10 @@ button {
   font-size: 14px;
 
   color: var(--primary-text-color);
+}
+
+.contact:hover, :focus {
+  color: var(--accent-color);
 }
 /*орієнтування*/
 .studia-page,
@@ -141,6 +165,10 @@ button {
 }
 /* тут будуть зміни */
 .hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 1600px;
   height: 600px;
   
@@ -148,13 +176,17 @@ button {
 }
 
 .hero-title {
-  margin: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 30px;
+  margin-left: 0;
 
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-transform: uppercase;
   width: 600px;
+  text-align: center;
 
   color: var(--primari-white-color);
 }
@@ -184,6 +216,12 @@ button {
 
 /*кнопка замовити послугу*/
 .button-hero {
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  padding: 0;
+  border: 0;
+
   font-size: 16px;
   line-height: 1.88;
 
@@ -194,6 +232,29 @@ button {
 :focus {
   background-color: #188ce8, 100%;
 }
+
+.speciality-container {
+  display: flex;
+  margin-top: 94px;
+  margin-right: auto;
+  margin-bottom: 0;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1230px;
+
+  background-color: red;
+}
+
+.speciality-block {
+  display: block;
+  width: 270px;
+}
+
+.speciality-container .speciality-block + .speciality-block {
+  margin-left: 30px;
+}
+
 .team {
   background-color: #f5f4fa;
 }
