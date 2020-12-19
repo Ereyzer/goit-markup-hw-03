@@ -24,7 +24,7 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -176,7 +176,7 @@ display: flex;
 /* footer */
 
 .footer-container {
-  width: 1230px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -292,7 +292,7 @@ display: flex;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-  width: 1230px;
+  width: 1200px;
 }
 
 .speciality-block {
@@ -319,7 +319,7 @@ display: flex;
 .engage-container {
   display: flex;
   justify-content: space-between;
-  width: 1230px;
+  width: 1200px;
   padding: 0 15px;
   margin: 0 auto 0 auto;
   
@@ -341,7 +341,7 @@ display: flex;
 }
 
 .team-container {
-  width: 1230px;
+  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   display: flex;
@@ -359,7 +359,7 @@ display: flex;
 
 /*портфоліо*/
 .content-container {
-  width: 1230px;
+  width: 1200px;
   padding-right: 15px;
   padding-left: 15px;
   margin: 94px auto;
