@@ -3,6 +3,10 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primari-white-color: #ffffff;
+
+  /*величина контейнера*/
+  --primary-width-container: 1600px;
+  --secondary-width-container: 1200px;
 }
 
 body {
@@ -21,10 +25,11 @@ body {
 }
 .head {
   display: flex;
+  border-bottom: 1px solid #ECECEC;
   justify-content: space-between;
   align-items: center;
 
-  width: 1200px;
+  width: var(--secondary-width-container);
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -35,7 +40,7 @@ body {
   align-items: center;
  
 
-  width: 1600px;
+  max-width: var(--primary-width-container);
   margin: 0 auto; 
   background-color: var(--primari-white-color);
   
@@ -88,14 +93,7 @@ a {
 }
 
 /*контакти*/
-footer {
-  width: 1600px;
-  margin: 0;
-  padding-top: 60px;
-  padding-bottom: 60px;
 
-  background-color: #2f303a;
-}
 
 button {
   font-family: inherit;
@@ -175,8 +173,17 @@ display: flex;
 
 /* footer */
 
+footer {
+  width: var(--primary-width-container);
+  margin: 0;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  background-color: #2f303a;
+}
+
 .footer-container {
-  width: 1200px;
+  width: var(--secondary-width-container);
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -194,14 +201,14 @@ display: flex;
 
 .contact-color-footer {
   display: inline-block;
-  height: 21px;
+  padding: 3px;
 
   color: rgba(255, 255, 255, 0.6)
 }
 
 .address-link {
   display: inline-block;
-  height: 21px;
+  
   font-size: 14px;
   line-height: 1.71;
   color: var(--primari-white-color);
@@ -213,7 +220,7 @@ display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 1600px;
+  width: var(--primary-width-container);
   height: 600px;
   margin-bottom: 94px;
   
@@ -292,7 +299,7 @@ display: flex;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
-  width: 1200px;
+  width: var(--secondary-width-container);
 }
 
 .speciality-block {
@@ -319,7 +326,7 @@ display: flex;
 .engage-container {
   display: flex;
   justify-content: space-between;
-  width: 1200px;
+  width: var(--secondary-width-container);
   padding: 0 15px;
   margin: 0 auto 0 auto;
   
@@ -341,7 +348,7 @@ display: flex;
 }
 
 .team-container {
-  width: 1200px;
+  width: var(--secondary-width-container);
   padding-right: 15px;
   padding-left: 15px;
   display: flex;
@@ -359,18 +366,19 @@ display: flex;
 
 /*портфоліо*/
 .content-container {
-  width: 1200px;
+  text-align: center;
+  width: var(--secondary-width-container);
   padding-right: 15px;
   padding-left: 15px;
   margin: 94px auto;
-  text-align: center;
+  
 }
 .filter-container {
 display: inline-flex;
-
+text-align: center;
 margin-top: 0;
 margin-right: auto;
-margin-bottom: 34px;
+margin-bottom: 50px;
 margin-left: auto;
 padding: 0;
 
@@ -390,15 +398,20 @@ margin: 0;
 }
 
 .portfolio-card {
-  height: 404px;
+  
   margin-top: 30px;
   margin-right: 0;
   margin-bottom: 0;
   margin-left: 30px;
-
+  width: 370px;
+  text-align: left;
   background-color: var(--primari-white-color);
 }
 
+.portfolio-card-text {
+  border: 1px solid #EEEEEE;
+  padding: 20px 24px;
+}
 .portfolio-card:nth-child(3n+1) {
   margin-left: 0;
 }
@@ -435,11 +448,17 @@ margin: 0;
   font-weight: 700;
   font-size: 18px;
   text-transform: none;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 4px;
+  margin-left: 0;
 }
 .portfolio-paragraph {
   line-height: 1.88;
   font-weight: 400;
   font-size: 16px;
+  margin: 0;
+  
 
   color: var(--primary-text-color);
 }
