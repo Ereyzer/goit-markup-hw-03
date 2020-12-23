@@ -64,6 +64,10 @@ p {
 h4{
     margin: 0;
 }
+
+img {
+    display: block;
+}
         /*кнопки мають спільні значення */
 
 button {
@@ -491,6 +495,3 @@ footer {
     color: var(--primary-text-color);
 }
     
-.portfolio-link {
-    background-color: #eeeeee;
-}
