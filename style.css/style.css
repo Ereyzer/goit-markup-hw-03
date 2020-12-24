@@ -15,18 +15,19 @@ body{
   line-height: 1.17;
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
-  background-color: #E5E5E5;
+  
+  background-color: var(--primari-white-color);
 }
     /* основні розміри сторінки*/
 
-.oll-page {
+/*.oll-page {
     display: block;
     margin-right: auto;
     margin-left: auto;
     max-width: var(--page-max-width);
-
+    background-color: #E5E5E5;
     background-color: var(--primari-white-color);
-}
+}*/
 
 .container {
     display: block;
