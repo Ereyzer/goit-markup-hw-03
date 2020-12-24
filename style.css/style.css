@@ -230,7 +230,7 @@ footer {
   /* наш герой */
   .hero {
     
-    margin-bottom: 94px;
+    margin-bottom: 0;
     padding-top: 200px;
     padding-bottom: 200px;
     
@@ -283,11 +283,17 @@ footer {
 
    /* секція наші плюси */
 
+   .specialiti {
+    margin: 0;
+    padding: 94px 0;
+   }
+
    .speciality-container {
     display: flex;
     margin-top: 0;
     margin-right: auto;
-    margin-bottom: 94px;
+    margin-bottom: 0;
+    margin-left: auto;
     
   }
 
@@ -329,12 +335,16 @@ footer {
     font-size: 36px;
 }
 
+.engage {
+    padding: 94px 0;
+}
+
 .engage-container {
     display: flex;
     justify-content: space-between;
     
     margin: 0 auto 0 auto;
-    padding-bottom: 94px;
+   /* padding-bottom: 94px;*/
     
 }
 
@@ -395,7 +405,9 @@ footer {
 .content-container {
     text-align: center;
     
-    margin: 94px auto;
+    margin: 0 auto;
+    padding-top: 94px;
+    padding-bottom: 94px;
     
 }
 
