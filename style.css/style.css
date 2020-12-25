@@ -16,6 +16,7 @@ body{
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
   
+  
   background-color: var(--primari-white-color);
 }
     /* основні розміри сторінки*/
@@ -336,7 +337,7 @@ footer {
 }
 
 .engage {
-    padding: 94px 0;
+    padding: 0 0 94px 0;
 }
 
 .engage-container {
